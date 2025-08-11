@@ -33,7 +33,7 @@ Firewall configuration on Linux using UFW - blocking Telnet, allowing SSH, and m
    - *connection timed out* -> Means the firewall is silently dropping the connection packets.
 
 ### 5. Allow SSH (Port 22)
-- Then I was allowing SSH port using **sudo ufw allow 22/tcp.
+- Then I was allowing SSH port using **sudo ufw allow 22/tcp**.
 - check the rule numbers which help to does the SSH port is allow or not
 #### Why you should allow SSH
 - **Remote Administration**
@@ -53,5 +53,5 @@ Firewall configuration on Linux using UFW - blocking Telnet, allowing SSH, and m
 A firewall acts as a barrier between your system and the network, filtering incoming and outgoing traffic based on rules.
 - Inbound rules: Control traffic enetering your system.
 - Outbound rules: Control traffic leaving your system.
-- UFw simplifies firewall management with easy allow and deny commands.
+- UFw simplifies firewall management with easy allow and deny commands.  
 By blocking unnecassary ports (e.g., Telnet) nd allowing essential ones (e.g., SSH), we reduce attack surfaces and improves security.
